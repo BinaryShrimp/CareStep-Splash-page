@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: roboto;
+}
+
+header {
+    text-align: center;
+    margin: 20px 0 20px 0;
+}
+
+main {
+    height: 80vh;
+    font-size: 2em;
+    /* border: 1px solid black; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#Layer_1 {
+    width: 80%;
+}
+
+@media only screen and (max-width: 420px) {
+    #Layer_1 {
+        width: 90%;
+    }
+    main {
+        font-size: 1em;
+    }
+}
+
+main h2 {
+    margin: 0;
+    padding-top: 60px;
+}
+main p {
+    padding: 20px;
+}
